@@ -1,0 +1,13 @@
+<h1>Guessing Game</h1>
+<p>The correct number is between 1 and 100.
+Guess the correct number</p>
+
+<%= form_tag '/numbers_submit', method: :post do%>
+
+  <div>
+    <%= label_tag :guess %>
+    <%= text_field_tag :guess %>
+  </div>
+
+    <%= submit_tag 'Submit Guess' %>
+<% end %>
