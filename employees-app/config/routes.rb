@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
- get '/cat' => 'persons#cat'
- get '/all' => 'persons#cats'
+ get '/' => 'persons#index'
+ get '/employees' => 'persons#index'
+
+ get '/employees/new' => 'persons#new'
+ post '/employees' => 'persons#create'
+
+ get '/employees/:id' => 'persons#show'
 end

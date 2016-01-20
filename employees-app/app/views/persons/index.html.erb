@@ -1,0 +1,11 @@
+<h1>Employee List</h1>
+
+<%= link_to "Add New Employee", "/employees/new" %>
+
+<% @employees.each do |employee| %>
+  <h2>Title: <%= link_to employee.job_title, "/employees/#{employee.id}" %></h2>
+  <h3>Name: <%= employee.first_name %> <%= employee.last_name %></h3>
+  <p>Email:<%= employee.email %> Phone:<%= employee.phone_number%></p>
+  <h3>Salary $<%= employee.salary %> Gender: <%= employee.gender %></h3>
+  
+<% end %>

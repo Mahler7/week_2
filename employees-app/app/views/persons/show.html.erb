@@ -1,0 +1,11 @@
+<h1>Employee List</h1>
+
+
+<h2>Title: <%= @employees.job_title %></h2>
+<h3>Name: <%= @employees.first_name %> <%= @employees.last_name %></h3>
+<p>Email:<%= @employees.email %> Phone:<%= @employees.phone_number%></p>
+<h3>Salary $<%= @employees.salary %> Gender: <%= @employees.gender %>
+  
+
+
+<%= link_to "Home", "/" %>
