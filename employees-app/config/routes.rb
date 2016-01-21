@@ -6,4 +6,9 @@ Rails.application.routes.draw do
  post '/employees' => 'persons#create'
 
  get '/employees/:id' => 'persons#show'
+
+ get '/employees/:id/edit' => 'persons#edit'
+ patch 'employees/:id' => 'persons#update'
+
+ delete 'employees/:id' => 'persons#destroy'
 end
