@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+ 
+  devise_for :users
+ root 'persons#index'
+ 
  get '/' => 'persons#index'
  get '/employees' => 'persons#index'
 

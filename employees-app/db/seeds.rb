@@ -1,7 +1,19 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Employee.create!([
+  {first_name: "Ser", last_name: "Pounce", email: "spounce@acrobatcats.com", job_title: "Knight of the Kitties", salary: "Knight of the Kitties", phone_number: "312-123-4567", gender: "Kitty", middle_name: "aka", bio: "jalkdshflsd", latitude: nil, longitude: nil},
+  {first_name: "Jiggly", last_name: "Puff", email: "jpuff@acrobatcats.com", job_title: "Cat Singer", salary: "30,000", phone_number: "312-123-7654", gender: "Kitty", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Sgt", last_name: "Kitties", email: "skitties@acrobatcats.com", job_title: "Cat Time Traveler", salary: "100,000", phone_number: "312-123-5545", gender: "Better Kitty", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Eda", last_name: "Clampitt", email: "eclampitt@acrobatcats.com", job_title: "Office Grunt", salary: "20,000", phone_number: "312-555-4231", gender: "F", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Filiberto", last_name: "Massingill", email: "fmassingill@acrobatcats.com", job_title: "Office Grunt", salary: "20,000", phone_number: "312-555-4232", gender: "M", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Nereida  ", last_name: "Kicklin", email: "nkicklin@acrobatcats.com", job_title: "Low Level Manager", salary: "30,000", phone_number: "312-555-4233", gender: "F", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Albertine  ", last_name: "Tillman", email: "atillman@acrobatcats.com", job_title: "Low Level Manager", salary: "30,000", phone_number: "312-555-4234", gender: "F", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Bad", last_name: "Cat", email: "bcat@acrobatcats.com", job_title: "Unemployed", salary: "0", phone_number: "None", gender: "Cat", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Bad", last_name: "Cat 2", email: "bcat2@acrobatcats.com", job_title: "Unemployed", salary: "0", phone_number: "None", gender: "Cat", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Bad", last_name: "Cat 4", email: "bac", job_title: "0", salary: "0", phone_number: "0", gender: "0", middle_name: nil, bio: nil, latitude: nil, longitude: nil},
+  {first_name: "Bad", last_name: "Cat 2", email: "bcat2@acrobatcats.com", job_title: "Unemployed", salary: "Unemployed", phone_number: "None", gender: "Cat", middle_name: "The Bad", bio: "Eats garbage makes messes and is a ecologists worst nightmare", latitude: nil, longitude: nil},
+  {first_name: "Adele", last_name: "Bloxam", email: "anorene@yourcompany.com", job_title: "Auditor", salary: "60,000", phone_number: "312-123-4567", gender: "Female", middle_name: "Norene", bio: "N.A.", latitude: nil, longitude: nil},
+  {first_name: "Adele", last_name: "Bloxam", email: "anorene@yourcompany.com", job_title: "Auditor", salary: "60,000", phone_number: "312-123-4567", gender: "Female", middle_name: "Norene", bio: "N.A.", latitude: nil, longitude: nil},
+  {first_name: "ajdshfjlkdsfh", last_name: "Bloxam", email: "anorene@yourcompany.com", job_title: "Auditor", salary: "100", phone_number: "312-123-4567", gender: "Female", middle_name: "Norene", bio: "N.A.", latitude: nil, longitude: nil},
+  {first_name: "Ser", last_name: "Pounce", email: "spounce@acrobatcats.com", job_title: "Knight of the Kitties", salary: "Knight of the Kitties", phone_number: "312-123-4567", gender: "Kitty", middle_name: "AKA", bio: "", latitude: nil, longitude: nil},
+  {first_name: "Ser", last_name: "Pounce", email: "spounce@acrobatcats.com", job_title: "Knight of the Kitties", salary: "Knight of the Kitties", phone_number: "312-123-4567", gender: "Kitty", middle_name: "aka", bio: "", latitude: nil, longitude: nil},
+  {first_name: "", last_name: "", email: "", job_title: "", salary: "", phone_number: "", gender: "", middle_name: "", bio: "", latitude: nil, longitude: nil}
+])

@@ -18,6 +18,11 @@
   </div>
 
   <div>
+    <%= label_tag "Address" %>
+    <%= text_field_tag "Address" %>
+  </div>
+
+  <div>
     <%= label_tag :email %>
     <%= text_field_tag :email %>
   </div>
@@ -46,7 +51,7 @@
     <%= label_tag :bio %>
     <%= text_field_tag :bio %>
   </div>
-  
+
   <%= submit_tag "Add Employee" %>
 
 <% end %>
