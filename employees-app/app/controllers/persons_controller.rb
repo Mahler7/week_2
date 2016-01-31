@@ -5,6 +5,12 @@ class PersonsController < ApplicationController
 
   def index
     @employees = Employee.all
+
+    if params[:group]
+      @group = Group.find_by(name: params[:group])
+      @employees = @group.employees
+    end
+
   end
 
   def new
@@ -28,6 +34,7 @@ class PersonsController < ApplicationController
 
   def show
     @employee = Employee.find(params[:id])
+    @groups = @employee.groups
   end
 
   def edit

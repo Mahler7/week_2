@@ -1,6 +1,8 @@
 <h1>Employee List</h1>
 
-
+<% @groups.each do |group| %>
+  <h2><%= group.name.titleize %></h2>
+<% end %>
 <h2>Title: <%= @employee.job_title %></h2>
 <h3>Name: <%= @employee.full_name %></h3>
 <p>Email:<%= @employee.email %> Phone:<%= @employee.phone_number%></p>
