@@ -62,7 +62,7 @@ class PersonsController < ApplicationController
     @employee = Employee.find(params[:id])
     @employee.destroy
 
-    flash[:warning] = "Recipe Destroyed"
+    flash[:warning] = "Employee Destroyed"
 
     redirect_to "/employees"
   end
